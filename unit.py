@@ -5,7 +5,11 @@ import streamlit as st
 
 st.markdown(
     """
-    <style> 
+    <style>
+    video{
+    src"video"
+    
+    } 
     body {
       background-color: #1e1e2f;
       color: white;
@@ -115,4 +119,4 @@ if st.button("🤖 Convert"):
 
     st.markdown(f"<div class='result-box'>{value} {from_unit} = {result:.4f} {to_unit}</div>", unsafe_allow_html=True)
 
-st.markdown("<div class='footer'>Created with love by Mehak Alamgir</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Created with love by prithvi</div>", unsafe_allow_html=True)
